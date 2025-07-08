@@ -1,9 +1,9 @@
-# Jmspy — A Native Python JMS OpenWire Client for ActiveMQ using Jpype
+# JMSpy - A Native Python JMS OpenWire Client for ActiveMQ using Jpype
 
-Welcome to Jmspy, a simple tool that enables Python applications to communicate with an Apache ActiveMQ broker using the native JMS OpenWire protocol — not STOMP.
+Welcome to Jmspy, a simple tool that enables Python applications to communicate with an Apache ActiveMQ broker using the native JMS OpenWire protocol, not STOMP.
 Unlike other solutions that rely on STOMP (Simple Text Oriented Messaging Protocol) or Jython (Python-in-Java), 
 this client is built using JPype, which provides a bridge between the JVM and Python via JNI (Java Native Interface). 
-This allows Python to directly interact with JMS-compliant JAR libraries in a proper JVM process — 
+This allows Python to directly interact with JMS-compliant JAR libraries in a proper JVM process,  
 the same way Java applications would.
 By default, OpenWire listens on port 61616.
 
@@ -49,7 +49,7 @@ You can optionally specify a save directory:
 
 - This project uses JPype to launch a local JVM inside the Python process.
 - It interacts directly with the jakarta.jms interfaces.
-- It is focused on native OpenWire/JMS messaging — for developers who need the full fidelity of a JMS client in Python.
+- It is focused on native OpenWire/JMS messaging for developers who need the full fidelity of a JMS client in Python.
 
 ---
 
